@@ -63,47 +63,46 @@
   }
 
 /* Mobile Navigation */
-
-  .mobile-nav-icon{
-
-    display: inline-block;
-    border: none;
-  }
-
-  .sticky .main-nav li a:link,
-  .sticky .main-nav li a:visited{
-    color: #333;
-    padding: 5px 0;
-    display: block;
+.mobile-nav-icon{
+  float: right;
+  display: inline-block;
+  border: none;
   }
 
   .sticky .mobile-nav-icon i{color:#000;}
-  .mobile-nav-icon:hover{
-    border: none;
-  }
 
 /*Mobile Navigation ends */
 
-  .main-nav{
-    font-size: 90%;
-    margin-top: 15px;
-    margin-left: 25px;
-    float:left;
-  }
+/* List navigaton in mobile */
+.main-nav{
+  font-size: 90%;
+  margin-top: 15px;
+  margin-left: 25px;
+  float:left;
+  display: none;
+}
 
-  .main-nav li{
-    display: block;
-    padding-bottom: 2px;
-  }
+.main-nav li{
+  display: block;
+  padding-bottom: 2px;
+}
 
-  .main-nav li a:visited,
-  .main-nav li a:link{
-    display: block;
-    border: 0;
-    padding: 5px 0;
-    font-size: 100%;
-  }
+.main-nav li a:visited,
+.main-nav li a:link{
+  display: block;
+  border: 0;
+  padding: 5px 0;
+  font-size: 100%;
+}
 
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited{
+  color: #333;
+  padding: 5px 0;
+  display: block;
+}
+
+/* List navigation in mobile ends */
   .hero-text-box{
     width: 100%;
     margin-top: 10%;
@@ -117,7 +116,6 @@
 
   h1{font-size: 180%;}
   h2{font-size: 150%;}
-}
 
 .works-step{margin-bottom: 20px;}
 .works-step:last-of-type{margin-bottom: 20px;}
